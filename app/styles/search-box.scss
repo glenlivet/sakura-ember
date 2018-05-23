@@ -1,0 +1,12 @@
+
+.sakura-search-form {
+  display: flex;
+}
+
+.sakura-search-form > input {
+  flex-grow: 2;
+}
+
+.sakura-search-form > button {
+  width: 25%;
+}

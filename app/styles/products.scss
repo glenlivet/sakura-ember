@@ -1,0 +1,52 @@
+
+.sakura-product-line-item {
+  display: flex;
+  height: $sakura-line-item-height;
+}
+
+.sakura-product-line-item-image {
+  width: $sakura-line-item-height;
+  background: rgb(65, 220, 244);
+}
+
+.sakura-product-line-item-info {
+  display: inline-block;
+  flex-grow: 3;
+}
+
+.sakura-product-line-item-add-to-cart {
+  width: $sakura-line-item-height / 1.5;
+  display: inline-flex;
+  align-items: center;
+  background: $sakura-color-oranage;
+  color: white;
+}
+
+.sakura-product-line-item-more-options {
+  width: $sakura-line-item-height / 1.5;
+  display: inline-flex;
+  align-items: center;
+  background: $sakura-color-blue;
+  color: white;
+}
+
+.sakura-line-item-info-brand {
+  font-size: 14px;
+}
+
+.sakura-product-line-item-info > ol > li {
+  margin: 0;
+}
+
+.sakura-product-line-item-info-ol {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sakura-line-item-info-price {
+  flex-grow: 1;
+  display: inline-flex;
+  align-items: center;
+}
+

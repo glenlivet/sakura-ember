@@ -1,0 +1,37 @@
+
+$sakura-line-item-height: 90px;
+$sakura-color-oranage: rgb(244, 122, 66);
+$sakura-color-blue: rgb(66, 194, 244);
+$sakura-margin-size: 8px;
+$sakura-inline-text-padding-size: 8px;
+
+.sakura-margin-left {
+  margin-left: $sakura-margin-size;
+}
+.sakura-margin-right {
+  margin-right: $sakura-margin-size;
+}
+
+.sakura-inline-text-padding-right {
+  padding-right: $sakura-inline-text-padding-size;
+}
+
+@import '../../bower_components/reset-scss/reset-src';
+@import '../../bower_components/font-awesome/scss/font-awesome';
+@import 'custom-font-awesome';
+@import '../../bower_components/picnic/src/picnic';
+@import 'picnic-custom';
+@import 'margin-padding';
+
+.font-color-red {
+  color: red;
+}
+.font-color-dimgray {
+  color: DimGray;
+}
+.font-style-italic {
+  font-style: italic;
+}
+
+@import 'products';
+@import 'search-box';
